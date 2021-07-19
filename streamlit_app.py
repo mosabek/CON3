@@ -48,7 +48,7 @@ st.write('# Excavator Detection Model V1')
 ## Pull in default image or user-selected image.
 if uploaded_file is None:
     # Default image.
-    image = Image.open('./images/train.jpg')
+    image = Image.open('./images/EXAMPLE(2).jpg')
 
 else:
     # User-selected image.
