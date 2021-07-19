@@ -48,7 +48,7 @@ st.write('# Excavator Detection Model V1')
 ## Pull in default image or user-selected image.
 if uploaded_file is None:
     # Default image.
-    url = 'https://drive.google.com/file/d/1sPiGKqYkGbxNVUnVKDJY8bAj5oVZ4s2C.jpg?raw=true'
+    url = 'https://drive.google.com/file/d/1sPiGKqYkGbxNVUnVKDJY8bAj5oVZ4s2C/preview?raw=true'
     image = Image.open(requests.get(url, stream=True).raw)
 
 else:
