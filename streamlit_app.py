@@ -97,8 +97,8 @@ st.image(image,
 
 ## Construct the URL to retrieve JSON.
 upload_url = ''.join([
-    'https://infer.roboflow.com/rf-bccd-bkpj9--1',
-    '?access_token=vbIBKNgIXqAQ'
+    'https://infer.roboflow.com/excavotor-3/8?',
+    '?access_token=jp6GFrGWHhf0W01LEwkU'
 ])
 
 ## POST to the API.
