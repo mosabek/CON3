@@ -20,12 +20,11 @@ uploaded_file = st.sidebar.file_uploader('',
                                          type=['png', 'jpg', 'jpeg'],
                                          accept_multiple_files=False)
 
-st.sidebar.write('[Our Excavator Inferencing video .](https://public.roboflow.com/object-detection/bccd/)')
+st.sidebar.write('[Our Excavator Inferencing video ](https://public.roboflow.com/object-detection/bccd/)')
 
 ## Add in sliders.
 confidence_threshold = st.sidebar.slider('Confidence threshold: What is the minimum acceptable confidence level for displaying a bounding box?', 0.0, 1.0, 0.5, 0.01)
 overlap_threshold = st.sidebar.slider('Overlap threshold: What is the maximum amount of overlap permitted between visible bounding boxes?', 0.0, 1.0, 0.5, 0.01)
-
 
 image = Image.open('./images/edifice-lab.png')
 st.sidebar.image(image,
@@ -69,8 +68,8 @@ img_str = img_str.decode('ascii')
 
 ## Construct the URL to retrieve image.
 upload_url = ''.join([
-    'https://infer.roboflow.com/excavotor-3/8',
-    'access_token=jp6GFrGWHhf0W01LEwkU',
+    'https://infer.roboflow.com/rf-bccd-bkpj9--1',
+    '?access_token=vbIBKNgIXqAQ',
     '&format=image',
     f'&overlap={overlap_threshold * 100}',
     f'&confidence={confidence_threshold * 100}',
@@ -97,8 +96,8 @@ st.image(image,
 
 ## Construct the URL to retrieve JSON.
 upload_url = ''.join([
-    'https://infer.roboflow.com/excavotor-3/8',
-    'access_token=jp6GFrGWHhf0W01LEwkU'
+    'https://infer.roboflow.com/rf-bccd-bkpj9--1',
+    '?access_token=vbIBKNgIXqAQ'
 ])
 
 ## POST to the API.
