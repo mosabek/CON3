@@ -69,8 +69,8 @@ img_str = img_str.decode('ascii')
 
 ## Construct the URL to retrieve image.
 upload_url = ''.join([
-    'https://infer.roboflow.com/excavotor-3/8?',
-    '?access_token=jp6GFrGWHhf0W01LEwkU',
+    'https://infer.roboflow.com/excavotor-3/8',
+    'access_token=jp6GFrGWHhf0W01LEwkU',
     '&format=image',
     f'&overlap={overlap_threshold * 100}',
     f'&confidence={confidence_threshold * 100}',
@@ -97,8 +97,8 @@ st.image(image,
 
 ## Construct the URL to retrieve JSON.
 upload_url = ''.join([
-    'https://infer.roboflow.com/excavotor-3/8?',
-    '?access_token=jp6GFrGWHhf0W01LEwkU'
+    'https://infer.roboflow.com/excavotor-3/8',
+    'access_token=jp6GFrGWHhf0W01LEwkU'
 ])
 
 ## POST to the API.
