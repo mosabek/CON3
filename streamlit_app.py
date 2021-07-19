@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 st.sidebar.write('#### Select an image to upload.')
 uploaded_file = st.sidebar.file_uploader('',
                                          type=['png', 'jpg', 'jpeg'],
-                                         accept_multiple_files=True)
+                                         accept_multiple_files=False)
 
 st.sidebar.write('[Find additional images on Roboflow.](https://public.roboflow.com/object-detection/bccd/)')
 
