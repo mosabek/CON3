@@ -110,12 +110,6 @@ r = requests.post(upload_url,
 output_dict = r.json()
 
 
-
-## Summary statistics section in main app.
-st.write('### Summary Statistics')
-st.write(f'Number of Bounding Boxes (ignoring overlap thresholds): {len(confidences)}')
-st.write(f'Average Confidence Level of Bounding Boxes: {(np.round(np.mean(confidences),4))}')
-
 ## Histogram in main app.
 st.write('### Histogram of Confidence Levels')
 fig, ax = plt.subplots()
