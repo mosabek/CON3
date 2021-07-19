@@ -113,11 +113,6 @@ output_dict = r.json()
 ## Summary statistics section in main app.
 st.write('### Summary Statistics')
 
-## Histogram in main app.
-st.write('### Histogram of Confidence Levels')
-fig, ax = plt.subplots()
-ax.hist(confidences, bins=10, range=(0.0,1.0))
-st.pyplot(fig)
 
 ## Display the JSON in main app.
 st.write('### JSON Output')
