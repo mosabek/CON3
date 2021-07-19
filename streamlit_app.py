@@ -48,7 +48,7 @@ st.write('# Excavator Detection Model V1')
 ## Pull in default image or user-selected image.
 if uploaded_file is None:
     # Default image.
-    url = 'https://github.com/mosabek/EXCAVATOR/blob/master/images/train.jpgimages/train.jpg?raw=true'
+    url = 'https://github.com/mosabek/EXCAVATOR/blob/master/images/train.jpgimages/train.jpg?'
     image = Image.open(requests.get(url, stream=True).raw)
 
 else:
