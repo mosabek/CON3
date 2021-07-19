@@ -20,13 +20,17 @@ uploaded_file = st.sidebar.file_uploader('',
                                          type=['png', 'jpg', 'jpeg'],
                                          accept_multiple_files=False)
 
-st.sidebar.write('[Our Excavator Inferencing video ](https://public.roboflow.com/object-detection/bccd/)')
+st.sidebar.write('[Our Excavator Inferencing video ](https://https://youtu.be/V2q2Dncb05k)')
 
 ## Add in sliders.
 confidence_threshold = st.sidebar.slider('Confidence threshold: What is the minimum acceptable confidence level for displaying a bounding box?', 0.0, 1.0, 0.5, 0.01)
 overlap_threshold = st.sidebar.slider('Overlap threshold: What is the maximum amount of overlap permitted between visible bounding boxes?', 0.0, 1.0, 0.5, 0.01)
 
 image = Image.open('./images/edifice-lab.png')
+st.sidebar.image(image,
+                 use_column_width=True)
+
+image = Image.open('./images/asu-logo.png')
 st.sidebar.image(image,
                  use_column_width=True)
 
