@@ -20,7 +20,7 @@ uploaded_file = st.sidebar.file_uploader('',
                                          type=['png', 'jpg', 'jpeg'],
                                          accept_multiple_files=False)
 
-st.sidebar.write('[Our Excavator Inferencing video ](https://https://youtu.be/V2q2Dncb05k)')
+st.sidebar.write('[Our Excavator Inferencing video ](https://www.youtube.com/watch?v=V2q2Dncb05k)')
 
 ## Add in sliders.
 confidence_threshold = st.sidebar.slider('Confidence threshold: What is the minimum acceptable confidence level for displaying a bounding box?', 0.0, 1.0, 0.5, 0.01)
