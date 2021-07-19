@@ -31,6 +31,10 @@ image = Image.open('./images/edifice-lab.png')
 st.sidebar.image(image,
                  use_column_width=True)
 
+image = Image.open('./images/roboflow_logo.png')
+st.sidebar.image(image,
+                 use_column_width=True)
+
 image = Image.open('./images/streamlit_logo.png')
 st.sidebar.image(image,
                  use_column_width=True)
@@ -40,7 +44,7 @@ st.sidebar.image(image,
 ##########
 
 ## Title.
-st.write('# Blood Cell Count Object Detection')
+st.write('# Excavator Detection Model V1')
 
 ## Pull in default image or user-selected image.
 if uploaded_file is None:
@@ -65,8 +69,8 @@ img_str = img_str.decode('ascii')
 
 ## Construct the URL to retrieve image.
 upload_url = ''.join([
-    'https://infer.roboflow.com/rf-bccd-bkpj9--1',
-    '?access_token=vbIBKNgIXqAQ',
+    'https://infer.roboflow.com/excavotor-3/8?',
+    '?access_token=jp6GFrGWHhf0W01LEwkU',
     '&format=image',
     f'&overlap={overlap_threshold * 100}',
     f'&confidence={confidence_threshold * 100}',
