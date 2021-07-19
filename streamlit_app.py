@@ -48,7 +48,7 @@ st.write('# Excavator Detection Model V1')
 ## Pull in default image or user-selected image.
 if uploaded_file is None:
     # Default image.
-    url = 'https://github.com/matthewbrems/streamlit-bccd/blob/master/BCCD_sample_images/BloodImage_00038_jpg.rf.6551ec67098bc650dd650def4e8a8e98.jpg?raw=true'
+    url = 'https://drive.google.com/file/d/1sPiGKqYkGbxNVUnVKDJY8bAj5oVZ4s2C.jpg?raw=true'
     image = Image.open(requests.get(url, stream=True).raw)
 
 else:
