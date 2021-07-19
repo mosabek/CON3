@@ -108,8 +108,7 @@ r = requests.post(upload_url,
 ## Save the JSON.
 output_dict = r.json()
 
-## Generate list of confidences.
-confidences = [box['confidence'] for box in output_dict['predictions']]
+
 
 ## Summary statistics section in main app.
 st.write('### Summary Statistics')
