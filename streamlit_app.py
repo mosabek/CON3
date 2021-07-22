@@ -47,7 +47,7 @@ st.sidebar.image(image,
 ##########
 
 ## Title.
-st.write('# Pranav khurana , Karthick Venkatesh T C , Janarthanan K, Mohamed Sabek , Pratheesh kumar J')
+st.write('#  This project was done under the direction of Dr.Thomas Czerniawski and by : Janarthanan K, Karthick Venkatesh T C ,  Mohamed Sabek , Pranav khurana ,Pratheesh kumar J')
 
 st.write('# Detailed Study of Excavator Detection Performance ')
 
