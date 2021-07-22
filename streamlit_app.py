@@ -51,7 +51,7 @@ st.write('# Detailed Study of Excavator Detection Performance ')
 
 st.write('#  This project was done under the direction of Dr.Thomas Czerniawski')
 
-st.write('#  By : Janarthanan K, Karthick Venkatesh T C ,  Mohamed Sabek , Pranav khurana and Pratheesh kumar J')
+st.write('#  By : Janarthanan K, Karthick Venkatesh T C , Mohamed Sabek , Pranav khurana and Pratheesh kumar J')
 
 
 
