@@ -47,11 +47,13 @@ st.sidebar.image(image,
 ##########
 
 ## Title.
+st.write('# Detailed Study of Excavator Detection Performance ')
+
 st.write('#  This project was done under the direction of Dr.Thomas Czerniawski')
 
 st.write('#  By : Janarthanan K, Karthick Venkatesh T C ,  Mohamed Sabek , Pranav khurana ,Pratheesh kumar J')
 
-st.write('# Detailed Study of Excavator Detection Performance ')
+
 
 ## Pull in default image or user-selected image.
 if uploaded_file is None:
