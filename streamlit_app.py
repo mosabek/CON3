@@ -105,7 +105,7 @@ st.image(image,
 
 ## Construct the URL to retrieve JSON.
 upload_url = ''.join([
-    'https://detect.roboflow.com/excavotor-3/8',
+    'https://detect.roboflow.com/excavotor-3/16',
     '?api_key=jp6GFrGWHhf0W01LEwkU'
 ])
 
