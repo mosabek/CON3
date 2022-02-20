@@ -47,18 +47,18 @@ st.sidebar.image(image,
 ##########
 
 ## Title.
-st.write('# Detailed Study of Excavator Detection Performance')
+st.write('# A showcase for CON3 detector , to detect Excavators Wheel Loaders and Dump Trucks')
 
-st.write('This project was done under the direction of Dr.Thomas Czerniawski')
+st.write('This project was done under the direction of Dr.Kristen Parrish ')
 
-st.write('Team members: Janarthanan K , Karthick Venkatesh T C, Mohamed Sabek , Pranav khurana and Pratheesh kumar J')
+st.write('This project was programmed by Mohamed sabek as a showcase for CON3 model detector ')
 
 
 
 ## Pull in default image or user-selected image.
 if uploaded_file is None:
     # Default image.
-    image = Image.open('./images/EXAMPLE(2).jpg')
+    image = Image.open('./images/EXAMPLE(3).jpg')
 
 else:
     # User-selected image.
@@ -77,7 +77,7 @@ img_str = img_str.decode('ascii')
 
 ## Construct the URL to retrieve image.
 upload_url = ''.join([
-    'https://detect.roboflow.com/excavotor-3/8',
+    'https://detect.roboflow.com/excavotor-3/16',
     '?api_key=jp6GFrGWHhf0W01LEwkU',
     '&format=image',
     f'&overlap={overlap_threshold * 100}',
