@@ -47,9 +47,9 @@ st.sidebar.image(image,
 ##########
 
 ## Title.
-st.write('# A showcase for CON3 detector , to detect Excavators Wheel Loaders and Dump Trucks')
+st.write('# A showcase for CON3 detector , to detect Excavators , Wheel Loaders and Dump Trucks')
 
-st.write('This project was done under the direction of Dr.Kristen Parrish ')
+st.write('This project was done under the guidance of Dr.Kristen Parrish and Dr.Thomas Czerniawski ')
 
 st.write('This project was programmed by Mohamed sabek as a showcase for CON3 model detector ')
 
